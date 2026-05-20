@@ -1,281 +1,288 @@
 import logo from './assets/logo.png'
 
-export default function LocalBoostKeWebsite() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-[#0b0f1a] text-white font-sans">
-      <nav className="flex items-center justify-between px-6 lg:px-12 py-6 border-b border-white/10 bg-black/30 backdrop-blur-xl sticky top-0 z-50">
-  <div className="flex items-center gap-3">
-    <img
-      src={logo}
-      alt="Local Boost Ke"
-      className="h-24 w-auto"
-    />
-  </div>
+    <div className="min-h-screen bg-[#020617] text-white overflow-hidden">
 
-  <div className="hidden md:flex items-center gap-8 text-gray-300">
-    <a href="#" className="hover:text-yellow-400 transition">
-      Home
-    </a>
+      {/* NAVBAR */}
 
-    <a href="#" className="hover:text-yellow-400 transition">
-      Services
-    </a>
+      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-2xl bg-[#020617]/70 border-b border-white/5">
 
-    <a href="#" className="hover:text-yellow-400 transition">
-      About
-    </a>
+        <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
 
-    <a href="#" className="hover:text-yellow-400 transition">
-      Contact
-    </a>
-  </div>
-
-  <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-yellow-400 to-amber-300 text-black font-semibold hover:scale-105 transition">
-    Get Started
-  </button>
-</nav>
-      
-      {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#101828] via-[#0b0f1a] to-[#111827] opacity-95"></div>
-
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <div className="inline-flex items-center px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-6">
-                <span className="text-sm tracking-wide text-gray-300">
-                  Digital Marketing • Branding • Growth
-                </span>
-              </div>
-
-              <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tight">
-                Elevate Your
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-200">
-                  Local Brand.
-                </span>
-              </h1>
-
-              <p className="mt-8 text-lg text-gray-300 leading-relaxed max-w-xl">
-                Local Boost Ke helps Kenyan businesses grow online through
-                premium branding, social media management, content creation,
-                and high-converting digital marketing strategies.
-              </p>
-
-              <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-yellow-400 to-amber-300 text-black font-semibold shadow-2xl hover:scale-105 transition-transform duration-300">
-                  Book a Free Consultation
-                </button>
-
-                <button className="px-8 py-4 rounded-2xl border border-white/15 bg-white/5 backdrop-blur-md hover:bg-white/10 transition duration-300">
-                  View Services
-                </button>
-              </div>
-
-              <div className="mt-12 flex items-center gap-8 text-sm text-gray-400">
-                <div>
-                  <h3 className="text-2xl font-bold text-white">50+</h3>
-                  <p>Brands Boosted</p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">98%</h3>
-                  <p>Client Satisfaction</p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">24/7</h3>
-                  <p>Support</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative">
-              <div className="absolute -top-10 -right-10 w-72 h-72 bg-yellow-400/20 rounded-full blur-3xl"></div>
-
-              <div className="relative bg-white/5 border border-white/10 backdrop-blur-xl rounded-[32px] p-8 shadow-2xl">
-                <div className="grid grid-cols-2 gap-5">
-                  <div className="bg-[#111827] rounded-3xl p-6 border border-white/5">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-300 mb-5"></div>
-                    <h3 className="text-xl font-semibold mb-2">Social Media</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">
-                      Premium content & audience growth strategies.
-                    </p>
-                  </div>
-
-                  <div className="bg-[#111827] rounded-3xl p-6 border border-white/5 mt-10">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-300 mb-5"></div>
-                    <h3 className="text-xl font-semibold mb-2">Brand Identity</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">
-                      Elegant visuals that position your brand professionally.
-                    </p>
-                  </div>
-
-                  <div className="bg-[#111827] rounded-3xl p-6 border border-white/5 -mt-4">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-300 mb-5"></div>
-                    <h3 className="text-xl font-semibold mb-2">Web Design</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">
-                      Clean modern websites built to convert visitors.
-                    </p>
-                  </div>
-
-                  <div className="bg-[#111827] rounded-3xl p-6 border border-white/5 mt-6">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-300 mb-5"></div>
-                    <h3 className="text-xl font-semibold mb-2">Advertising</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">
-                      Smart campaigns that generate measurable results.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="flex items-center">
+            <img
+              src={logo}
+              alt="Local Boost Ke"
+              className="h-28 w-auto object-contain"
+            />
           </div>
-        </div>
-      </section>
 
-      {/* Services Section */}
-      <section className="max-w-7xl mx-auto px-6 lg:px-12 py-24">
-        <div className="text-center mb-16">
-          <p className="text-yellow-400 uppercase tracking-[0.3em] text-sm mb-4">
-            Our Services
-          </p>
-          <h2 className="text-4xl lg:text-5xl font-bold">
-            Everything Your Business Needs
-          </h2>
+          <div className="hidden md:flex items-center gap-10 text-sm tracking-wide text-gray-300 font-medium">
+
+            <a href="#" className="hover:text-yellow-400 transition duration-300">
+              Home
+            </a>
+
+            <a href="#" className="hover:text-yellow-400 transition duration-300">
+              Services
+            </a>
+
+            <a href="#" className="hover:text-yellow-400 transition duration-300">
+              About
+            </a>
+
+            <a href="#" className="hover:text-yellow-400 transition duration-300">
+              Contact
+            </a>
+
+          </div>
+
+          <a
+            href="https://wa.me/254734006916"
+            target="_blank"
+            className="px-7 py-3 rounded-2xl bg-gradient-to-r from-yellow-400 to-amber-300 text-black font-semibold shadow-2xl shadow-yellow-500/20 hover:scale-105 transition duration-300"
+          >
+            Let's Talk
+          </a>
+
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            "Website Development",
-            "SEO Optimization",
-            "Social Media Management",
-            "Business Branding",
-            "Meta Ads",
-          
-            
-            
-          ].map((service, index) => (
-            <div
-              key={index}
-              className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:-translate-y-2 hover:border-yellow-400/30 transition duration-300"
-            >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-300 mb-6"></div>
-              <h3 className="text-xl font-semibold leading-snug">
-                {service}
-              </h3>
-            </div>
-          ))}
-        </div>
-      </section>
+      </nav>
 
-      {/* Why Choose Us */}
-      <section className="bg-white/[0.03] border-y border-white/5 py-24">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16 items-center">
+      {/* HERO SECTION */}
+
+      <section className="relative pt-44 px-6 lg:px-20 pb-24">
+
+        <div className="absolute top-20 left-0 w-[500px] h-[500px] bg-yellow-500/10 blur-[140px] rounded-full"></div>
+
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-blue-500/10 blur-[140px] rounded-full"></div>
+
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+
+          {/* LEFT */}
+
           <div>
-            <p className="text-yellow-400 uppercase tracking-[0.3em] text-sm mb-4">
-              Why Local Boost Ke
+
+            <div className="inline-block px-5 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-gray-300 mb-8">
+              Nairobi’s Premium Digital Growth Agency
+            </div>
+
+            <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
+
+              Elevate Your
+
+              <span className="block text-yellow-400">
+                Local Brand.
+              </span>
+
+            </h1>
+
+            <p className="text-gray-400 text-lg leading-relaxed max-w-xl mb-10">
+
+              Local Boost Ke helps businesses grow online through premium web development, branding, social media management and high-converting Meta Ads strategies.
+
             </p>
 
-            <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-              We Build Brands That Stand Out.
-            </h2>
+            <div className="flex flex-wrap gap-5 mb-14">
 
-            <p className="mt-8 text-gray-300 text-lg leading-relaxed">
-              We combine modern design, powerful storytelling, and strategic
-              digital marketing to help local businesses attract attention,
-              build trust, and increase sales.
-            </p>
-          </div>
-
-          <div className="space-y-6">
-            {[
-              "Premium modern branding",
-              "Results-driven marketing strategies",
-              "Fast communication & support",
-              "Tailored solutions for Kenyan businesses",
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-5"
+              <a
+                href="https://wa.me/254734006916"
+                target="_blank"
+                className="px-8 py-4 rounded-2xl bg-gradient-to-r from-yellow-400 to-amber-300 text-black font-semibold hover:scale-105 transition duration-300 shadow-xl shadow-yellow-500/20"
               >
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-400 to-amber-300 flex items-center justify-center text-black font-bold">
-                  ✓
-                </div>
-                <p className="text-lg text-gray-200">{item}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+                Book Free Consultation
+              </a>
 
-      {/* CTA Section */}
-      <section className="max-w-5xl mx-auto px-6 py-24">
-        <div className="relative overflow-hidden bg-gradient-to-r from-yellow-400 to-amber-300 rounded-[40px] p-12 lg:p-16 text-black text-center shadow-2xl">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
+              <button className="px-8 py-4 rounded-2xl border border-white/20 hover:border-yellow-400 transition duration-300">
+                View Services
+              </button>
+
+            </div>
+
+            <div className="grid grid-cols-3 gap-8">
+
+              <div>
+                <h2 className="text-3xl font-bold text-yellow-400">
+                  Web
+                </h2>
+
+                <p className="text-gray-400 mt-2">
+                  Development
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-bold text-yellow-400">
+                  Meta
+                </h2>
+
+                <p className="text-gray-400 mt-2">
+                  Ads
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-bold text-yellow-400">
+                  Brand
+                </h2>
+
+                <p className="text-gray-400 mt-2">
+                  Strategy
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* RIGHT */}
 
           <div className="relative">
-            <p className="uppercase tracking-[0.3em] text-sm font-semibold mb-4">
-              Ready To Grow?
-            </p>
 
-            <h2 className="text-4xl lg:text-6xl font-bold leading-tight max-w-3xl mx-auto">
-              Let’s Take Your Brand To The Next Level.
-            </h2>
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-blue-500/10 blur-3xl rounded-[40px]"></div>
 
-            <p className="mt-6 text-lg max-w-2xl mx-auto text-black/80">
-              Whether you're a startup or an established business, Local Boost
-              Ke is ready to help you dominate your online presence.
-            </p>
+            <div className="relative bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl grid grid-cols-2 gap-6">
 
-            <button className="mt-10 px-10 py-4 bg-black text-white rounded-2xl font-semibold hover:scale-105 transition-transform duration-300 shadow-xl">
-              Start Your Project
-            </button>
+              <div className="bg-[#081028] rounded-3xl p-8 hover:-translate-y-2 transition duration-300">
+
+                <div className="w-14 h-14 rounded-2xl bg-yellow-400 mb-8"></div>
+
+                <h3 className="text-2xl font-semibold mb-4">
+                  Social Media
+                </h3>
+
+                <p className="text-gray-400 leading-relaxed">
+                  Premium content strategies that grow engagement and visibility.
+                </p>
+
+              </div>
+
+              <div className="bg-[#081028] rounded-3xl p-8 mt-10 hover:-translate-y-2 transition duration-300">
+
+                <div className="w-14 h-14 rounded-2xl bg-yellow-400 mb-8"></div>
+
+                <h3 className="text-2xl font-semibold mb-4">
+                  Branding
+                </h3>
+
+                <p className="text-gray-400 leading-relaxed">
+                  Elegant brand identity systems designed to stand out professionally.
+                </p>
+
+              </div>
+
+              <div className="bg-[#081028] rounded-3xl p-8 hover:-translate-y-2 transition duration-300">
+
+                <div className="w-14 h-14 rounded-2xl bg-yellow-400 mb-8"></div>
+
+                <h3 className="text-2xl font-semibold mb-4">
+                  Web Development
+                </h3>
+
+                <p className="text-gray-400 leading-relaxed">
+                  Modern high-converting websites built for businesses ready to grow.
+                </p>
+
+              </div>
+
+              <div className="bg-[#081028] rounded-3xl p-8 mt-10 hover:-translate-y-2 transition duration-300">
+
+                <div className="w-14 h-14 rounded-2xl bg-yellow-400 mb-8"></div>
+
+                <h3 className="text-2xl font-semibold mb-4">
+                  Meta Ads
+                </h3>
+
+                <p className="text-gray-400 leading-relaxed">
+                  Smart advertising campaigns designed for measurable business growth.
+                </p>
+
+              </div>
+
+            </div>
+
           </div>
+
         </div>
+
       </section>
 
-      <section className="px-6 lg:px-20 py-20">
-  <div className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-10 backdrop-blur-xl">
-    
-    <h2 className="text-4xl font-bold mb-8 text-center">
-      Contact Local Boost Ke
-    </h2>
+      {/* CONTACT */}
 
-    <div className="space-y-6 text-center text-gray-300 text-lg">
+      <section className="px-6 lg:px-20 pb-28">
 
-      <p>
-        📞 WhatsApp: +254734006916
-      </p>
+        <div className="max-w-5xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl relative overflow-hidden">
 
-      <p>
-        📧 localboostke@gmail.com
-      </p>
+          <div className="absolute top-0 right-0 w-72 h-72 bg-yellow-400/10 blur-[120px] rounded-full"></div>
 
-      <p>
-        📸 Instagram: @localboostke
-      </p>
+          <div className="relative z-10">
 
-      <p>
-        🌍 Nairobi, Kenya
-      </p>
+            <h2 className="text-5xl font-bold text-center mb-14">
+              Contact Local Boost Ke
+            </h2>
 
-    </div>
+            <div className="grid md:grid-cols-2 gap-10 text-lg text-gray-300">
 
-    <div className="flex justify-center mt-10">
+              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+                <p className="text-yellow-400 text-sm mb-2">WHATSAPP</p>
+                <p className="text-2xl font-semibold">
+                  +254734006916
+                </p>
+              </div>
+
+              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+                <p className="text-yellow-400 text-sm mb-2">EMAIL</p>
+                <p className="text-2xl font-semibold break-all">
+                  localboostke@gmail.com
+                </p>
+              </div>
+
+              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+                <p className="text-yellow-400 text-sm mb-2">INSTAGRAM</p>
+                <p className="text-2xl font-semibold">
+                  @localboostke
+                </p>
+              </div>
+
+              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+                <p className="text-yellow-400 text-sm mb-2">LOCATION</p>
+                <p className="text-2xl font-semibold">
+                  Nairobi, Kenya
+                </p>
+              </div>
+
+            </div>
+
+            <div className="flex justify-center mt-14">
+
+              <a
+                href="https://wa.me/254734006916"
+                target="_blank"
+                className="px-10 py-5 rounded-2xl bg-gradient-to-r from-green-400 to-emerald-500 text-black font-bold text-lg hover:scale-105 transition duration-300 shadow-2xl shadow-green-500/20"
+              >
+                Chat on WhatsApp
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* FLOATING WHATSAPP */}
+
       <a
         href="https://wa.me/254734006916"
         target="_blank"
-        className="px-8 py-4 rounded-2xl bg-gradient-to-r from-green-400 to-emerald-500 text-black font-bold hover:scale-105 transition"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-400 text-white px-6 py-4 rounded-full shadow-2xl shadow-green-500/30 transition duration-300 hover:scale-110"
       >
-        Chat on WhatsApp
+        WhatsApp Us
       </a>
-    </div>
 
-  </div>
-</section>
-
-      {/* Footer */}
-      <footer className="border-t border-white/5 py-10 text-center text-gray-500 text-sm px-6">
-        © 2026 Local Boost Ke. All rights reserved.
-      </footer>
     </div>
-  );
+  )
 }
 
