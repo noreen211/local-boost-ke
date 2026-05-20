@@ -143,14 +143,14 @@ export default function LocalBoostKeWebsite() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            "Social Media Management",
-            "Content Creation",
             "Website Development",
-            "Business Branding",
-            "Paid Advertising",
-            "Photography & Reels",
             "SEO Optimization",
-            "Marketing Strategy",
+            "Social Media Management",
+            "Business Branding",
+            "Meta Ads",
+          
+            
+            
           ].map((service, index) => (
             <div
               key={index}
@@ -230,6 +230,46 @@ export default function LocalBoostKeWebsite() {
           </div>
         </div>
       </section>
+
+      <section className="px-6 lg:px-20 py-20">
+  <div className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-10 backdrop-blur-xl">
+    
+    <h2 className="text-4xl font-bold mb-8 text-center">
+      Contact Local Boost Ke
+    </h2>
+
+    <div className="space-y-6 text-center text-gray-300 text-lg">
+
+      <p>
+        📞 WhatsApp: +254734006916
+      </p>
+
+      <p>
+        📧 localboostke@gmail.com
+      </p>
+
+      <p>
+        📸 Instagram: @localboostke
+      </p>
+
+      <p>
+        🌍 Nairobi, Kenya
+      </p>
+
+    </div>
+
+    <div className="flex justify-center mt-10">
+      <a
+        href="https://wa.me/254734006916"
+        target="_blank"
+        className="px-8 py-4 rounded-2xl bg-gradient-to-r from-green-400 to-emerald-500 text-black font-bold hover:scale-105 transition"
+      >
+        Chat on WhatsApp
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-10 text-center text-gray-500 text-sm px-6">
