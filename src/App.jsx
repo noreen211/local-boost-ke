@@ -10,11 +10,11 @@ export default function App() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
 
-          <div className="flex items-center">
+          <div className="flex items-center overflow-hidden">
             <img
               src={logo}
               alt="Local Boost Ke"
-              className="h-24 w-auto object-contain"
+              className="h-14 w-auto object-contain"
             />
           </div>
 
