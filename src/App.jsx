@@ -44,7 +44,6 @@ export default function App() {
 
           <a
             href="https://wa.me/254734006916"
-            target="_blank"
             className="px-7 py-3 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-105 transition duration-300"
           >
             Let's Talk
@@ -63,8 +62,6 @@ export default function App() {
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-500/10 blur-[140px] rounded-full"></div>
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-
-          {/* LEFT */}
 
           <div>
 
@@ -123,8 +120,6 @@ export default function App() {
             </div>
 
           </div>
-
-          {/* RIGHT */}
 
           <div className="relative">
 
@@ -196,137 +191,6 @@ export default function App() {
 
       </section>
 
-      {/* PACKAGES */}
-
-      <section className="px-6 lg:px-20 pb-28">
-
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-20">
-
-            <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
-              Website Packages
-            </p>
-
-            <h2 className="text-5xl lg:text-6xl font-bold mb-6">
-              Professional Websites For Every Business
-            </h2>
-
-            <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-              Whether you're starting small or building a premium brand, Local Boost Ke creates modern websites designed to help your business grow online professionally.
-            </p>
-
-          </div>
-
-          <div className="grid lg:grid-cols-4 gap-10">
-
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
-
-              <p className="text-emerald-400 font-semibold mb-4">
-                STARTER PACKAGE
-              </p>
-
-              <h3 className="text-5xl font-bold mb-6">
-                Ksh 3,500
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-
-                <p>✔ 1 Premium Landing Page</p>
-                <p>✔ Mobile Friendly Design</p>
-                <p>✔ WhatsApp Chat Button</p>
-                <p>✔ Services Display</p>
-                <p>✔ Social Media Links</p>
-                <p>✔ Basic SEO Setup</p>
-                <p>✔ Fast Delivery</p>
-
-              </div>
-
-            </div>
-
-            <div className="relative bg-gradient-to-b from-blue-500/25 to-emerald-400/10 border border-emerald-400/40 rounded-[40px] p-8 backdrop-blur-xl scale-[1.03] shadow-2xl shadow-emerald-500/10">
-
-              <div className="absolute top-5 right-5 bg-emerald-400 text-black text-xs font-bold px-3 py-1 rounded-full">
-                MOST POPULAR
-              </div>
-
-              <p className="text-emerald-400 font-semibold mb-4">
-                BUSINESS PACKAGE
-              </p>
-
-              <h3 className="text-5xl font-bold mb-6">
-                Ksh 10,000
-              </h3>
-
-              <div className="space-y-4 text-gray-200">
-
-                <p>✔ Up To 5 Custom Pages</p>
-                <p>✔ Premium Modern Design</p>
-                <p>✔ Contact Forms</p>
-                <p>✔ Gallery / Portfolio</p>
-                <p>✔ Booking System</p>
-                <p>✔ Google Maps Integration</p>
-                <p>✔ SEO Optimization</p>
-                <p>✔ 14 Days Free Support</p>
-
-              </div>
-
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
-
-              <p className="text-emerald-400 font-semibold mb-4">
-                PREMIUM BRAND
-              </p>
-
-              <h3 className="text-5xl font-bold mb-6">
-                Ksh 25,000
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-
-                <p>✔ Advanced Custom Design</p>
-                <p>✔ Smooth Animations</p>
-                <p>✔ Premium Brand Styling</p>
-                <p>✔ Interactive Sections</p>
-                <p>✔ Blog / News Setup</p>
-                <p>✔ Advanced SEO</p>
-                <p>✔ Priority Support</p>
-
-              </div>
-
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
-
-              <p className="text-emerald-400 font-semibold mb-4">
-                ECOMMERCE / CUSTOM
-              </p>
-
-              <h3 className="text-5xl font-bold mb-6">
-                From 50K
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-
-                <p>✔ Full Online Store</p>
-                <p>✔ M-PESA Integration</p>
-                <p>✔ Shopping Cart & Checkout</p>
-                <p>✔ Dashboard Features</p>
-                <p>✔ Login Systems</p>
-                <p>✔ Custom Functionality</p>
-                <p>✔ Ongoing Technical Support</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
       {/* CREATOR PROGRAM */}
 
       <section className="px-6 lg:px-20 pb-28">
@@ -378,7 +242,6 @@ export default function App() {
               <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
                 method="POST"
-                target="_blank"
                 className="space-y-5"
               >
 
@@ -528,7 +391,6 @@ export default function App() {
 
       <a
         href="https://wa.me/254734006916"
-        target="_blank"
         className="fixed bottom-6 right-6 z-50 px-6 py-4 rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/30 hover:scale-110 transition duration-300"
       >
         WhatsApp Us
