@@ -1,419 +1,601 @@
-import logo from './assets/logo.png'
-
-export default function App() {
-  return (
-    <div className="min-h-screen bg-[#020617] text-white overflow-hidden">
-
-      {/* NAVBAR */}
-
-      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-2xl bg-[#020617]/80 border-b border-white/5">
-
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
-
-          <div className="flex items-center">
-            <img
-              src={logo}
-              alt="Local Boost Ke"
-              className="h-14 w-auto object-contain"
-            />
-          </div>
-
-          <a
-            href="https://wa.me/254734006916"
-            className="px-7 py-3 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-105 transition duration-300"
-          >
-            Let's Talk
-          </a>
-
-        </div>
-
-      </nav>
-
-      {/* HERO */}
-
-      <section className="relative pt-40 px-6 lg:px-20 pb-28">
-
-        <div className="absolute top-20 left-0 w-[500px] h-[500px] bg-blue-500/10 blur-[140px] rounded-full"></div>
-
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-500/10 blur-[140px] rounded-full"></div>
-
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-
-          <div>
-
-            <div className="inline-block px-5 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-gray-300 mb-8">
-              Nairobi's Premium Digital Growth Agency
-            </div>
-
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
-
-              Elevate Your
-
-              <span className="block bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Local Brand.
-              </span>
-
-            </h1>
-
-            <p className="text-gray-400 text-lg leading-relaxed max-w-xl mb-10">
-
-              Local Boost Ke helps businesses grow online through premium web development, branding, social media management and high-converting Meta Ads strategies.
-
-            </p>
-
-          </div>
-
-          <div className="relative">
-
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-emerald-400/10 blur-3xl rounded-[40px]"></div>
-
-            <div className="relative bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl grid grid-cols-2 gap-6">
-
-              <div className="bg-[#081028] rounded-3xl p-8">
-
-                <h3 className="text-2xl font-semibold mb-4">
-                  Web Development
-                </h3>
-
-                <p className="text-gray-400">
-                  Premium high-converting business websites.
-                </p>
-
-              </div>
-
-              <div className="bg-[#081028] rounded-3xl p-8 mt-10">
-
-                <h3 className="text-2xl font-semibold mb-4">
-                  Branding
-                </h3>
-
-                <p className="text-gray-400">
-                  Elegant premium business identity systems.
-                </p>
-
-              </div>
-
-              <div className="bg-[#081028] rounded-3xl p-8">
-
-                <h3 className="text-2xl font-semibold mb-4">
-                  Social Media
-                </h3>
-
-                <p className="text-gray-400">
-                  Growth-focused content and engagement strategies.
-                </p>
-
-              </div>
-
-              <div className="bg-[#081028] rounded-3xl p-8 mt-10">
-
-                <h3 className="text-2xl font-semibold mb-4">
-                  Meta Ads
-                </h3>
-
-                <p className="text-gray-400">
-                  Smart advertising campaigns for business growth.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* PRICING */}
-
-      <section className="px-6 lg:px-20 pb-28">
-
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-20">
-
-            <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
-              Website Packages
-            </p>
-
-            <h2 className="text-5xl font-bold mb-6">
-              Premium Website Solutions
-            </h2>
-
-          </div>
-
-          <div className="grid lg:grid-cols-4 gap-8">
-
-            <div className="bg-white/5 border border-white/10 rounded-[35px] p-8">
-
-              <p className="text-emerald-400 mb-4">
-                STARTER
-              </p>
-
-              <h3 className="text-5xl font-bold mb-8">
-                3,500
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-                <p>✔ 1 Premium Landing Page</p>
-                <p>✔ Mobile Friendly</p>
-                <p>✔ WhatsApp Button</p>
-                <p>✔ Services Display</p>
-                <p>✔ SEO Setup</p>
-              </div>
-
-            </div>
-
-            <div className="bg-gradient-to-b from-blue-500/20 to-emerald-400/10 border border-emerald-400/30 rounded-[35px] p-8 scale-105">
-
-              <p className="text-emerald-400 mb-4">
-                BUSINESS
-              </p>
-
-              <h3 className="text-5xl font-bold mb-8">
-                10K
-              </h3>
-
-              <div className="space-y-4 text-gray-200">
-                <p>✔ Up To 5 Pages</p>
-                <p>✔ Booking System</p>
-                <p>✔ Portfolio Sections</p>
-                <p>✔ SEO Optimization</p>
-                <p>✔ Premium UI Design</p>
-              </div>
-
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[35px] p-8">
-
-              <p className="text-emerald-400 mb-4">
-                PREMIUM
-              </p>
-
-              <h3 className="text-5xl font-bold mb-8">
-                25K
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-                <p>✔ Advanced Custom Design</p>
-                <p>✔ Smooth Animations</p>
-                <p>✔ Premium Styling</p>
-                <p>✔ Interactive Sections</p>
-                <p>✔ Priority Support</p>
-              </div>
-
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[35px] p-8">
-
-              <p className="text-emerald-400 mb-4">
-                ECOMMERCE
-              </p>
-
-              <h3 className="text-5xl font-bold mb-8">
-                50K+
-              </h3>
-
-              <div className="space-y-4 text-gray-300">
-                <p>✔ Online Store Setup</p>
-                <p>✔ M-PESA Integration</p>
-                <p>✔ Login Systems</p>
-                <p>✔ Dashboard Features</p>
-                <p>✔ Custom Functionality</p>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* CREATOR SECTION */}
-
-      <section className="px-6 lg:px-20 pb-28">
-
-        <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12">
-
-          <div className="text-center mb-14">
-
-            <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
-              Creator Partnership Program
-            </p>
-
-            <h2 className="text-5xl font-bold mb-6">
-              Earn With Local Boost Ke
-            </h2>
-
-            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-              Partner with Local Boost Ke and earn commissions by referring businesses to our services.
-            </p>
-
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-10">
-
-            <div className="bg-[#081028] rounded-3xl p-8">
-
-              <h3 className="text-3xl font-semibold mb-8">
-                Creator Benefits
-              </h3>
-
-              <div className="space-y-5 text-gray-300 text-lg">
-
-                <p>✔ Earn Ksh 500 per Starter Package referral</p>
-                <p>✔ Earn 20% commission on premium packages</p>
-                <p>✔ Receive your own creator code</p>
-                <p>✔ Fast payouts after successful referrals</p>
-                <p>✔ Work remotely from anywhere</p>
-
-              </div>
-
-            </div>
-
-            <div className="bg-[#081028] rounded-3xl p-8">
-
-              <h3 className="text-3xl font-semibold mb-8">
-                Apply As Creator
-              </h3>
-
-              <form
-                action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
-                method="POST"
-                target="hidden_iframe"
-                onSubmit={() => {
-                  alert("Application submitted successfully!")
-                }}
-                className="space-y-5"
-              >
-
-                <input
-                  type="text"
-                  name="entry.545798751"
-                  placeholder="Full Name"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                />
-
-                <input
-                  type="text"
-                  name="entry.1137478223"
-                  placeholder="Instagram Username"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                />
-
-                <input
-                  type="text"
-                  name="entry.1836801454"
-                  placeholder="TikTok Username"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                />
-
-                <input
-                  type="text"
-                  name="entry.1462881790"
-                  placeholder="Phone Number"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                />
-
-                <select
-                  name="entry.2050320178"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                >
-                  <option value="">Select Content Niche</option>
-                  <option value="Business">Business</option>
-                  <option value="Fashion">Fashion</option>
-                  <option value="Lifestyle">Lifestyle</option>
-                  <option value="Comedy">Comedy</option>
-                  <option value="Tech">Tech</option>
-                  <option value="Beauty">Beauty</option>
-                  <option value="Other">Other</option>
-                </select>
-
-                <input
-                  type="text"
-                  name="entry.1189225899"
-                  placeholder="Total Followers"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white"
-                />
-
-                <textarea
-                  name="entry.971559874"
-                  placeholder="Why would you like to join Local Boost Ke?"
-                  rows="5"
-                  required
-                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white resize-none"
-                ></textarea>
-
-                <button
-                  type="submit"
-                  className="w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold"
-                >
-                  Submit Application
-                </button>
-
-              </form>
-
-              <iframe
-                name="hidden_iframe"
-                style={{ display: "none" }}
-              ></iframe>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* CONTACT */}
-
-      <section className="px-6 lg:px-20 pb-24">
-
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-
-          <div className="bg-[#081028] rounded-3xl p-8">
-            <p className="text-emerald-400 mb-3">WHATSAPP</p>
-            <h3 className="text-2xl font-semibold">
-              +254734006916
-            </h3>
-          </div>
-
-          <div className="bg-[#081028] rounded-3xl p-8">
-            <p className="text-emerald-400 mb-3">EMAIL</p>
-            <h3 className="text-xl font-semibold break-all">
-              localboostke@gmail.com
-            </h3>
-          </div>
-
-          <div className="bg-[#081028] rounded-3xl p-8">
-            <p className="text-emerald-400 mb-3">INSTAGRAM</p>
-            <h3 className="text-2xl font-semibold">
-              @localboostke
-            </h3>
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* FLOATING BUTTON */}
-
-      <a
-        href="https://wa.me/254734006916"
-        className="fixed bottom-6 right-6 z-50 px-6 py-4 rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl"
-      >
-        WhatsApp Us
-      </a>
-
-    </div>
-  )
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Local Boost Ke</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
 }
+
+body{
+background:#020617;
+color:white;
+overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+width:100%;
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#020617;
+position:sticky;
+top:0;
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.logo img{
+width:110px;
+}
+
+.nav-btn{
+padding:18px 42px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+font-size:18px;
+color:white;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+transition:0.3s;
+}
+
+.nav-btn:hover{
+transform:translateY(-3px);
+}
+
+/* HERO */
+
+.hero{
+padding:100px 8%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+min-height:90vh;
+background:
+radial-gradient(circle at top left, rgba(59,130,246,0.15), transparent 40%),
+radial-gradient(circle at bottom right, rgba(16,185,129,0.12), transparent 40%);
+}
+
+.hero-text h1{
+font-size:72px;
+line-height:1.05;
+margin-bottom:25px;
+font-weight:700;
+}
+
+.hero-text span{
+background:linear-gradient(90deg,#3b82f6,#10b981);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero-text p{
+font-size:22px;
+line-height:1.8;
+color:#b8c1d1;
+max-width:650px;
+margin-bottom:35px;
+}
+
+.hero-buttons{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.primary-btn{
+padding:18px 38px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+color:white;
+}
+
+.secondary-btn{
+padding:18px 38px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+border:1px solid rgba(255,255,255,0.2);
+color:white;
+}
+
+/* SERVICES */
+
+.services-section{
+padding:100px 8%;
+}
+
+.services-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.large-card{
+width:100%;
+min-height:240px;
+}
+
+.bottom-services{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.service-card{
+background:#06122b;
+padding:45px;
+border-radius:35px;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
+transition:0.3s ease;
+}
+
+.service-card:hover{
+transform:translateY(-5px);
+}
+
+.service-card h3{
+font-size:42px;
+margin-bottom:20px;
+font-weight:700;
+line-height:1.1;
+}
+
+.service-card p{
+font-size:20px;
+line-height:1.7;
+color:#b6bfd0;
+max-width:400px;
+}
+
+/* PACKAGES */
+
+.packages{
+padding:100px 8%;
+}
+
+.section-title{
+font-size:52px;
+margin-bottom:70px;
+text-align:center;
+}
+
+.package-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.package-card{
+background:#06122b;
+padding:45px;
+border-radius:35px;
+border:1px solid rgba(255,255,255,0.05);
+transition:0.3s;
+}
+
+.package-card:hover{
+transform:translateY(-5px);
+}
+
+.package-card h3{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.price{
+font-size:38px;
+font-weight:700;
+margin-bottom:25px;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.package-card ul{
+list-style:none;
+display:flex;
+flex-direction:column;
+gap:15px;
+color:#c3cad7;
+line-height:1.6;
+}
+
+/* CREATOR SECTION */
+
+.creator-section{
+padding:100px 8%;
+}
+
+.creator-box{
+background:#06122b;
+border-radius:40px;
+padding:60px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:start;
+}
+
+.creator-content h2{
+font-size:48px;
+margin-bottom:25px;
+}
+
+.creator-content p{
+font-size:20px;
+line-height:1.8;
+color:#b7bfd0;
+margin-bottom:35px;
+}
+
+.creator-benefits{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.creator-benefits div{
+font-size:18px;
+color:#d3d9e5;
+}
+
+.form-container iframe{
+width:100%;
+height:700px;
+border:none;
+border-radius:20px;
+background:white;
+}
+
+/* CONTACT */
+
+.contact{
+padding:100px 8%;
+text-align:center;
+}
+
+.contact h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.contact p{
+font-size:20px;
+color:#b6bfd0;
+margin-bottom:35px;
+}
+
+.contact-btn{
+padding:18px 38px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+color:white;
+display:inline-block;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float{
+position:fixed;
+right:20px;
+bottom:20px;
+padding:16px 28px;
+border-radius:50px;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+color:white;
+text-decoration:none;
+font-weight:600;
+z-index:999;
+}
+
+/* FOOTER */
+
+footer{
+padding:30px;
+text-align:center;
+color:#7f8798;
+border-top:1px solid rgba(255,255,255,0.05);
+margin-top:60px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero{
+grid-template-columns:1fr;
+padding-top:70px;
+}
+
+.hero-text h1{
+font-size:52px;
+}
+
+.hero-text p{
+font-size:18px;
+}
+
+.bottom-services{
+grid-template-columns:1fr;
+}
+
+.creator-box{
+grid-template-columns:1fr;
+padding:35px;
+}
+
+.service-card h3{
+font-size:32px;
+}
+
+.section-title{
+font-size:40px;
+}
+
+.logo img{
+width:90px;
+}
+
+.nav-btn{
+padding:14px 28px;
+font-size:16px;
+}
+
+.whatsapp-float{
+padding:14px 24px;
+font-size:15px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+
+<nav>
+
+<div class="logo">
+<img src="logo.png" alt="Local Boost Ke">
+</div>
+
+<a href="https://wa.me/254734006916" class="nav-btn">
+Let's Talk
+</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+Elevate Your <span>Local Brand.</span>
+</h1>
+
+<p>
+Helping Kenyan businesses grow through premium web development, branding and Meta advertising solutions.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#packages" class="primary-btn">
+View Packages
+</a>
+
+<a href="#creator" class="secondary-btn">
+Become A Partner
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services-section">
+
+<div class="services-container">
+
+<div class="service-card large-card">
+<h3>Web Development</h3>
+<p>
+Premium high-converting business websites built for modern brands.
+</p>
+</div>
+
+<div class="bottom-services">
+
+<div class="service-card">
+<h3>Branding</h3>
+<p>
+Elegant premium business identity systems.
+</p>
+</div>
+
+<div class="service-card">
+<h3>Meta Ads</h3>
+<p>
+Smart advertising campaigns focused on business growth.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PACKAGES -->
+
+<section class="packages" id="packages">
+
+<h2 class="section-title">
+Website Packages
+</h2>
+
+<div class="package-grid">
+
+<div class="package-card">
+
+<h3>Starter Package</h3>
+
+<div class="price">
+Ksh 3,500
+</div>
+
+<ul>
+<li>✔ 1 Premium Landing Page</li>
+<li>✔ Mobile Friendly Design</li>
+<li>✔ WhatsApp Integration</li>
+<li>✔ Business Information Section</li>
+<li>✔ Fast Delivery</li>
+
+</ul>
+
+</div>
+
+<div class="package-card">
+
+<h3>Business Package</h3>
+
+<div class="price">
+Ksh 10,000
+</div>
+
+<ul>
+<li>✔ Up To 5 Custom Pages</li>
+<li>✔ Booking System</li>
+<li>✔ Gallery Sections</li>
+<li>✔ SEO Optimization</li>
+<li>✔ Professional UI Layout</li>
+
+</ul>
+
+</div>
+
+<div class="package-card">
+
+<h3>Premium Brand</h3>
+
+<div class="price">
+Ksh 25,000
+</div>
+
+<ul>
+<li>✔ Advanced Custom Design</li>
+<li>✔ Smooth Animations</li>
+<li>✔ Interactive Sections</li>
+<li>✔ Advanced SEO Structure</li>
+<li>✔ Priority Support</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CREATOR SECTION -->
+
+<section class="creator-section" id="creator">
+
+<div class="creator-box">
+
+<div class="creator-content">
+
+<h2>
+Creator Partnership Program
+</h2>
+
+<p>
+Earn commissions by referring businesses to Local Boost Ke.
+</p>
+
+<div class="creator-benefits">
+
+<div>✔ Earn Ksh 500 per starter package referral</div>
+<div>✔ Earn 20% commission on premium packages</div>
+<div>✔ Get your own creator referral code</div>
+<div>✔ Fast payouts after successful sales</div>
+
+</div>
+
+</div>
+
+<div class="form-container">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?embedded=true">
+Loading…
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>
+Ready To Grow Your Brand?
+</h2>
+
+<p>
+Let's build a premium online presence for your business.
+</p>
+
+<a href="https://wa.me/254734006916" class="contact-btn">
+Chat On WhatsApp
+</a>
+
+</section>
+
+<!-- FLOAT BUTTON -->
+
+<a href="https://wa.me/254734006916" class="whatsapp-float">
+WhatsApp Us
+</a>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 Local Boost Ke. All Rights Reserved.
+</footer>
+
+</body>
+</html>
