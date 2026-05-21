@@ -33,6 +33,10 @@ export default function App() {
             </a>
 
             <a href="#" className="hover:text-emerald-400 transition duration-300">
+              Creators
+            </a>
+
+            <a href="#" className="hover:text-emerald-400 transition duration-300">
               Contact
             </a>
 
@@ -192,7 +196,7 @@ export default function App() {
 
       </section>
 
-      {/* WEBSITE PACKAGES */}
+      {/* PACKAGES */}
 
       <section className="px-6 lg:px-20 pb-28">
 
@@ -214,9 +218,9 @@ export default function App() {
 
           </div>
 
-          <div className="grid lg:grid-cols-4 gap-10 items-stretch">
+          <div className="grid lg:grid-cols-4 gap-10">
 
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
 
               <p className="text-emerald-400 font-semibold mb-4">
                 STARTER PACKAGE
@@ -226,11 +230,7 @@ export default function App() {
                 Ksh 3,500
               </h3>
 
-              <p className="text-gray-400 mb-8 leading-relaxed">
-                Perfect for startups and small businesses that need a clean professional online presence.
-              </p>
-
-              <div className="space-y-4 text-gray-300 mb-10">
+              <div className="space-y-4 text-gray-300">
 
                 <p>✔ 1 Premium Landing Page</p>
                 <p>✔ Mobile Friendly Design</p>
@@ -244,7 +244,7 @@ export default function App() {
 
             </div>
 
-            <div className="relative bg-gradient-to-b from-blue-500/25 to-emerald-400/10 border border-emerald-400/40 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300 scale-[1.03] shadow-2xl shadow-emerald-500/10">
+            <div className="relative bg-gradient-to-b from-blue-500/25 to-emerald-400/10 border border-emerald-400/40 rounded-[40px] p-8 backdrop-blur-xl scale-[1.03] shadow-2xl shadow-emerald-500/10">
 
               <div className="absolute top-5 right-5 bg-emerald-400 text-black text-xs font-bold px-3 py-1 rounded-full">
                 MOST POPULAR
@@ -258,11 +258,7 @@ export default function App() {
                 Ksh 10,000
               </h3>
 
-              <p className="text-gray-300 mb-8 leading-relaxed">
-                Ideal for growing businesses that need a stronger premium online setup.
-              </p>
-
-              <div className="space-y-4 text-gray-200 mb-10">
+              <div className="space-y-4 text-gray-200">
 
                 <p>✔ Up To 5 Custom Pages</p>
                 <p>✔ Premium Modern Design</p>
@@ -277,7 +273,7 @@ export default function App() {
 
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
 
               <p className="text-emerald-400 font-semibold mb-4">
                 PREMIUM BRAND
@@ -287,11 +283,7 @@ export default function App() {
                 Ksh 25,000
               </h3>
 
-              <p className="text-gray-400 mb-8 leading-relaxed">
-                Designed for brands that want a luxury high-end digital experience.
-              </p>
-
-              <div className="space-y-4 text-gray-300 mb-10">
+              <div className="space-y-4 text-gray-300">
 
                 <p>✔ Advanced Custom Design</p>
                 <p>✔ Smooth Animations</p>
@@ -305,7 +297,7 @@ export default function App() {
 
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl">
 
               <p className="text-emerald-400 font-semibold mb-4">
                 ECOMMERCE / CUSTOM
@@ -315,11 +307,7 @@ export default function App() {
                 From 50K
               </h3>
 
-              <p className="text-gray-400 mb-8 leading-relaxed">
-                Built for businesses that need advanced functionality and scalable online systems.
-              </p>
-
-              <div className="space-y-4 text-gray-300 mb-10">
+              <div className="space-y-4 text-gray-300">
 
                 <p>✔ Full Online Store</p>
                 <p>✔ M-PESA Integration</p>
@@ -345,7 +333,7 @@ export default function App() {
 
         <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl">
 
-          <div className="text-center mb-12">
+          <div className="text-center mb-14">
 
             <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
               Creator Partnership Program
@@ -372,32 +360,99 @@ export default function App() {
               <div className="space-y-5 text-gray-300 text-lg">
 
                 <p>✔ Earn Ksh 500 per Starter Package referral</p>
-
                 <p>✔ Earn 20% commission on premium packages</p>
-
                 <p>✔ Get your own creator referral code</p>
-
                 <p>✔ Fast payouts after successful sales</p>
-
                 <p>✔ Work remotely from anywhere</p>
 
               </div>
 
             </div>
 
-            <div className="bg-[#081028] rounded-3xl p-5 border border-white/5 overflow-hidden">
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
 
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?embedded=true"
-                width="100%"
-                height="700"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                className="rounded-2xl bg-white"
+              <h3 className="text-3xl font-semibold mb-8">
+                Apply As Creator
+              </h3>
+
+              <form
+                action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
+                method="POST"
+                target="_blank"
+                className="space-y-5"
               >
-                Loading…
-              </iframe>
+
+                <input
+                  type="text"
+                  name="entry.545798751"
+                  placeholder="Full Name"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                />
+
+                <input
+                  type="text"
+                  name="entry.1137478223"
+                  placeholder="Instagram Username"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                />
+
+                <input
+                  type="text"
+                  name="entry.1836801454"
+                  placeholder="TikTok Username"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                />
+
+                <input
+                  type="text"
+                  name="entry.1462881790"
+                  placeholder="Phone Number"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                />
+
+                <select
+                  name="entry.2050320178"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                >
+                  <option value="">Select Content Niche</option>
+                  <option value="Business">Business</option>
+                  <option value="Fashion">Fashion</option>
+                  <option value="Lifestyle">Lifestyle</option>
+                  <option value="Comedy">Comedy</option>
+                  <option value="Tech">Tech</option>
+                  <option value="Beauty">Beauty</option>
+                  <option value="Other">Other</option>
+                </select>
+
+                <input
+                  type="text"
+                  name="entry.1189225899"
+                  placeholder="Total Followers"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
+                />
+
+                <textarea
+                  name="entry.971559874"
+                  placeholder="Why would you like to join Local Boost Ke?"
+                  rows="5"
+                  required
+                  className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400 resize-none"
+                ></textarea>
+
+                <button
+                  type="submit"
+                  className="w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-[1.02] transition duration-300"
+                >
+                  Submit Application
+                </button>
+
+              </form>
 
             </div>
 
