@@ -343,7 +343,7 @@ export default function App() {
 
       <section className="px-6 lg:px-20 pb-28">
 
-        <div className="max-w-5xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl">
+        <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl">
 
           <div className="text-center mb-12">
 
@@ -361,43 +361,43 @@ export default function App() {
 
           </div>
 
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid lg:grid-cols-2 gap-10 items-start">
 
             <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
 
-              <h3 className="text-2xl font-semibold mb-6">
+              <h3 className="text-3xl font-semibold mb-8">
                 Creator Benefits
               </h3>
 
-              <div className="space-y-5 text-gray-300">
+              <div className="space-y-5 text-gray-300 text-lg">
 
                 <p>✔ Earn Ksh 500 per Starter Package referral</p>
+
                 <p>✔ Earn 20% commission on premium packages</p>
+
                 <p>✔ Get your own creator referral code</p>
+
                 <p>✔ Fast payouts after successful sales</p>
+
                 <p>✔ Work remotely from anywhere</p>
 
               </div>
 
             </div>
 
-            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
+            <div className="bg-[#081028] rounded-3xl p-5 border border-white/5 overflow-hidden">
 
-              <h3 className="text-2xl font-semibold mb-6">
-                Apply As Creator
-              </h3>
-
-              <p className="text-gray-400 leading-relaxed mb-8">
-                Fill in our secure creator application form and our team will contact you after review.
-              </p>
-
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?usp=header"
-                target="_blank"
-                className="block text-center w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-[1.02] transition duration-300"
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?embedded=true"
+                width="100%"
+                height="700"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                className="rounded-2xl bg-white"
               >
-                Apply As Creator
-              </a>
+                Loading…
+              </iframe>
 
             </div>
 
