@@ -3,11 +3,7 @@ import "./App.css";
 export default function App() {
   return (
     <>
-
-      {/* NAVBAR */}
-
       <nav className="navbar">
-
         <div className="logo">
           <img src="/logo.png" alt="Local Boost Ke" />
         </div>
@@ -18,13 +14,9 @@ export default function App() {
         >
           Let's Talk
         </a>
-
       </nav>
 
-      {/* HERO */}
-
       <section className="hero">
-
         <h1>
           Elevate Your <span>Business Online.</span>
         </h1>
@@ -35,7 +27,6 @@ export default function App() {
         </p>
 
         <div className="hero-buttons">
-
           <a href="#packages" className="primary-btn">
             View Packages
           </a>
@@ -43,56 +34,42 @@ export default function App() {
           <a href="#creator" className="secondary-btn">
             Become A Partner
           </a>
-
         </div>
-
       </section>
 
-      {/* SERVICES */}
-
       <section className="services">
-
         <div className="services-container">
 
           <div className="service-card large-card">
-
             <h3>Web Development</h3>
 
             <p>
               Premium high-converting business websites built for modern brands.
             </p>
-
           </div>
 
           <div className="bottom-services">
 
             <div className="service-card">
-
               <h3>Branding</h3>
 
               <p>
                 Elegant premium business identity systems.
               </p>
-
             </div>
 
             <div className="service-card">
-
               <h3>Meta Ads</h3>
 
               <p>
                 Smart advertising campaigns focused on business growth.
               </p>
-
             </div>
 
           </div>
 
         </div>
-
       </section>
-
-      {/* PACKAGES */}
 
       <section className="packages" id="packages">
 
@@ -103,7 +80,6 @@ export default function App() {
         <div className="package-grid">
 
           <div className="package-card">
-
             <h3>Starter Package</h3>
 
             <div className="price">
@@ -115,13 +91,10 @@ export default function App() {
               <li>✔ Mobile Friendly Design</li>
               <li>✔ WhatsApp Integration</li>
               <li>✔ Fast Delivery</li>
-              <li>✔ Business Information Section</li>
             </ul>
-
           </div>
 
           <div className="package-card">
-
             <h3>Business Package</h3>
 
             <div className="price">
@@ -131,15 +104,12 @@ export default function App() {
             <ul>
               <li>✔ Up To 5 Custom Pages</li>
               <li>✔ Booking System</li>
-              <li>✔ Gallery Sections</li>
               <li>✔ SEO Optimization</li>
               <li>✔ Premium UI Layout</li>
             </ul>
-
           </div>
 
           <div className="package-card">
-
             <h3>Premium Brand</h3>
 
             <div className="price">
@@ -149,18 +119,13 @@ export default function App() {
             <ul>
               <li>✔ Advanced Custom Design</li>
               <li>✔ Smooth Animations</li>
-              <li>✔ Advanced SEO Structure</li>
               <li>✔ Priority Support</li>
               <li>✔ Interactive Sections</li>
             </ul>
-
           </div>
 
         </div>
-
       </section>
-
-      {/* CREATOR SECTION */}
 
       <section className="creator-section" id="creator">
 
@@ -177,35 +142,66 @@ export default function App() {
             </p>
 
             <div className="creator-benefits">
-
-              <div>✔ Earn Ksh 500 per starter package referral</div>
-
+              <div>✔ Earn Ksh 500 per referral</div>
               <div>✔ Earn 20% commission on premium packages</div>
-
-              <div>✔ Get your own creator referral code</div>
-
               <div>✔ Fast payouts after successful sales</div>
-
             </div>
 
           </div>
 
           <div className="form-container">
 
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?embedded=true"
-              title="Creator Form"
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
+              method="POST"
+              target="hidden_iframe"
+              className="creator-form"
             >
-              Loading…
-            </iframe>
+
+              <input
+                type="text"
+                name="entry.545798751"
+                placeholder="Full Name"
+                required
+              />
+
+              <input
+                type="text"
+                name="entry.1137478223"
+                placeholder="Instagram Username"
+                required
+              />
+
+              <input
+                type="text"
+                name="entry.1462881790"
+                placeholder="Phone Number"
+                required
+              />
+
+              <textarea
+                name="entry.971559874"
+                placeholder="Tell us about yourself"
+                rows="5"
+              ></textarea>
+
+              <button type="submit">
+                Apply Now
+              </button>
+
+            </form>
+
+            <iframe
+              name="hidden_iframe"
+              style={{ display: "none" }}
+              title="hidden"
+            ></iframe>
 
           </div>
 
         </div>
 
       </section>
-
-      {/* CONTACT */}
 
       <section className="contact">
 
@@ -226,16 +222,12 @@ export default function App() {
 
       </section>
 
-      {/* FLOATING BUTTON */}
-
       <a
         href="https://wa.me/254734006916"
         className="whatsapp-float"
       >
         WhatsApp Us
       </a>
-
-      {/* FOOTER */}
 
       <footer>
         © 2026 Local Boost Ke. All Rights Reserved.
@@ -244,3 +236,4 @@ export default function App() {
     </>
   );
 }
+
