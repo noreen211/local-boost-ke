@@ -43,7 +43,7 @@ export default function App() {
             target="_blank"
             className="px-7 py-3 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-105 transition duration-300"
           >
-            Let&apos;s Talk
+            Let's Talk
           </a>
 
         </div>
@@ -65,7 +65,7 @@ export default function App() {
           <div>
 
             <div className="inline-block px-5 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-gray-300 mb-8">
-              Nairobi&apos;s Premium Digital Growth Agency
+              Nairobi's Premium Digital Growth Agency
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
@@ -209,14 +209,12 @@ export default function App() {
             </h2>
 
             <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-              Whether you&apos;re starting small or building a premium brand, Local Boost Ke creates modern websites designed to help your business grow online professionally.
+              Whether you're starting small or building a premium brand, Local Boost Ke creates modern websites designed to help your business grow online professionally.
             </p>
 
           </div>
 
           <div className="grid lg:grid-cols-4 gap-10 items-stretch">
-
-            {/* STARTER */}
 
             <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
 
@@ -244,17 +242,7 @@ export default function App() {
 
               </div>
 
-              <a
-                href="https://wa.me/254734006916"
-                target="_blank"
-                className="block text-center px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 font-semibold hover:scale-105 transition duration-300"
-              >
-                Get Started
-              </a>
-
             </div>
-
-            {/* BUSINESS */}
 
             <div className="relative bg-gradient-to-b from-blue-500/25 to-emerald-400/10 border border-emerald-400/40 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300 scale-[1.03] shadow-2xl shadow-emerald-500/10">
 
@@ -287,17 +275,7 @@ export default function App() {
 
               </div>
 
-              <a
-                href="https://wa.me/254734006916"
-                target="_blank"
-                className="block text-center px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 font-semibold hover:scale-105 transition duration-300"
-              >
-                Choose Package
-              </a>
-
             </div>
-
-            {/* PREMIUM */}
 
             <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
 
@@ -325,17 +303,7 @@ export default function App() {
 
               </div>
 
-              <a
-                href="https://wa.me/254734006916"
-                target="_blank"
-                className="block text-center px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 font-semibold hover:scale-105 transition duration-300"
-              >
-                Upgrade Brand
-              </a>
-
             </div>
-
-            {/* ECOMMERCE */}
 
             <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 backdrop-blur-xl hover:-translate-y-2 transition duration-300">
 
@@ -363,14 +331,6 @@ export default function App() {
 
               </div>
 
-              <a
-                href="https://wa.me/254734006916"
-                target="_blank"
-                className="block text-center px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 font-semibold hover:scale-105 transition duration-300"
-              >
-                Build Custom Site
-              </a>
-
             </div>
 
           </div>
@@ -379,107 +339,65 @@ export default function App() {
 
       </section>
 
-      {/* CREATOR PARTNERSHIP PROGRAM */}
+      {/* CREATOR PROGRAM */}
 
       <section className="px-6 lg:px-20 pb-28">
 
-        <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl relative overflow-hidden">
+        <div className="max-w-5xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl">
 
-          <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div>
+          <div className="text-center mb-12">
 
-          <div className="relative z-10">
+            <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
+              Creator Partnership Program
+            </p>
 
-            <div className="text-center mb-14">
+            <h2 className="text-5xl font-bold mb-6">
+              Earn With Local Boost Ke
+            </h2>
 
-              <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
-                Creator Partnership Program
-              </p>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Join our creator network and earn commissions by referring businesses to Local Boost Ke.
+            </p>
 
-              <h2 className="text-5xl font-bold mb-6">
-                Earn By Promoting Local Boost Ke
-              </h2>
+          </div>
 
-              <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-                Content creators and influencers can earn commissions by referring clients to Local Boost Ke while helping businesses grow online.
-              </p>
+          <div className="grid md:grid-cols-2 gap-10">
+
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
+
+              <h3 className="text-2xl font-semibold mb-6">
+                Creator Benefits
+              </h3>
+
+              <div className="space-y-5 text-gray-300">
+
+                <p>✔ Earn Ksh 500 per Starter Package referral</p>
+                <p>✔ Earn 20% commission on premium packages</p>
+                <p>✔ Get your own creator referral code</p>
+                <p>✔ Fast payouts after successful sales</p>
+                <p>✔ Work remotely from anywhere</p>
+
+              </div>
 
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
 
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+              <h3 className="text-2xl font-semibold mb-6">
+                Apply As Creator
+              </h3>
 
-                <h3 className="text-2xl font-semibold mb-6">
-                  Partnership Benefits
-                </h3>
+              <p className="text-gray-400 leading-relaxed mb-8">
+                Fill in our secure creator application form and our team will contact you after review.
+              </p>
 
-                <div className="space-y-5 text-gray-300">
-
-                  <p>✔ Earn Ksh 500 for every successful 3,500 package referral</p>
-
-                  <p>✔ Earn 20% commission on premium packages</p>
-
-                  <p>✔ Fast payouts</p>
-
-                  <p>✔ Receive your own referral code</p>
-
-                  <p>✔ Work remotely from anywhere</p>
-
-                </div>
-
-              </div>
-
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
-
-                <h3 className="text-2xl font-semibold mb-6">
-                  Creator Application
-                </h3>
-
-                <form
-                  action="mailto:localboostke@gmail.com"
-                  method="POST"
-                  encType="text/plain"
-                  className="space-y-5"
-                >
-
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    required
-                    className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
-                  />
-
-                  <input
-                    type="text"
-                    placeholder="TikTok or Instagram Username"
-                    required
-                    className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
-                  />
-
-                  <input
-                    type="text"
-                    placeholder="Number of Followers"
-                    required
-                    className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
-                  />
-
-                  <input
-                    type="text"
-                    placeholder="Content Niche"
-                    required
-                    className="w-full bg-[#020617] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-emerald-400"
-                  />
-
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-[1.02] transition duration-300"
-                  >
-                    Apply As Creator
-                  </button>
-
-                </form>
-
-              </div>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?usp=header"
+                target="_blank"
+                className="block text-center w-full px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-[1.02] transition duration-300"
+              >
+                Apply As Creator
+              </a>
 
             </div>
 
@@ -491,59 +409,57 @@ export default function App() {
 
       {/* CONTACT */}
 
-      <section className="px-6 lg:px-20 pb-28">
+      <section className="px-6 lg:px-20 pb-24">
 
-        <div className="max-w-5xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl relative overflow-hidden">
+        <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl">
 
-          <div className="absolute top-0 right-0 w-72 h-72 bg-emerald-400/10 blur-[120px] rounded-full"></div>
+          <div className="text-center mb-14">
 
-          <div className="relative z-10">
+            <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
+              Contact Us
+            </p>
 
-            <h2 className="text-5xl font-bold text-center mb-14">
-              Contact Local Boost Ke
+            <h2 className="text-5xl font-bold mb-6">
+              Let's Build Your Brand
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-10 text-lg text-gray-300">
+          </div>
 
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
-                <p className="text-emerald-400 text-sm mb-2">WHATSAPP</p>
-                <p className="text-2xl font-semibold">
-                  +254734006916
-                </p>
-              </div>
+          <div className="grid md:grid-cols-3 gap-8">
 
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
-                <p className="text-emerald-400 text-sm mb-2">EMAIL</p>
-                <p className="text-2xl font-semibold break-all">
-                  localboostke@gmail.com
-                </p>
-              </div>
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
 
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
-                <p className="text-emerald-400 text-sm mb-2">INSTAGRAM</p>
-                <p className="text-2xl font-semibold">
-                  @localboostke
-                </p>
-              </div>
+              <p className="text-emerald-400 text-sm mb-3">
+                WHATSAPP
+              </p>
 
-              <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
-                <p className="text-emerald-400 text-sm mb-2">LOCATION</p>
-                <p className="text-2xl font-semibold">
-                  Nairobi, Kenya
-                </p>
-              </div>
+              <h3 className="text-2xl font-semibold">
+                +254734006916
+              </h3>
 
             </div>
 
-            <div className="flex justify-center mt-14">
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
 
-              <a
-                href="https://wa.me/254734006916"
-                target="_blank"
-                className="px-10 py-5 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-bold text-lg hover:scale-105 transition duration-300 shadow-2xl shadow-blue-500/20"
-              >
-                Chat on WhatsApp
-              </a>
+              <p className="text-emerald-400 text-sm mb-3">
+                EMAIL
+              </p>
+
+              <h3 className="text-xl font-semibold break-all">
+                localboostke@gmail.com
+              </h3>
+
+            </div>
+
+            <div className="bg-[#081028] rounded-3xl p-8 border border-white/5">
+
+              <p className="text-emerald-400 text-sm mb-3">
+                INSTAGRAM
+              </p>
+
+              <h3 className="text-2xl font-semibold">
+                @localboostke
+              </h3>
 
             </div>
 
@@ -553,12 +469,12 @@ export default function App() {
 
       </section>
 
-      {/* FLOATING WHATSAPP BUTTON */}
+      {/* FLOATING BUTTON */}
 
       <a
         href="https://wa.me/254734006916"
         target="_blank"
-        className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-blue-500 to-emerald-400 text-white px-6 py-4 rounded-full shadow-2xl shadow-blue-500/30 transition duration-300 hover:scale-110"
+        className="fixed bottom-6 right-6 z-50 px-6 py-4 rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/30 hover:scale-110 transition duration-300"
       >
         WhatsApp Us
       </a>
