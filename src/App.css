@@ -241,13 +241,7 @@ font-size:18px;
 color:#d8dfea;
 }
 
-.form-container iframe{
-width:100%;
-height:700px;
-border:none;
-border-radius:20px;
-background:white;
-}
+
 
 /* CONTACT */
 
@@ -350,4 +344,41 @@ padding:14px 22px;
 font-size:14px;
 }
 
+}
+.creator-form{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.creator-form input,
+.creator-form textarea{
+width:100%;
+padding:18px;
+border:none;
+border-radius:18px;
+background:#0f172a;
+color:white;
+font-size:16px;
+outline:none;
+}
+
+.creator-form textarea{
+resize:none;
+}
+
+.creator-form button{
+padding:18px;
+border:none;
+border-radius:50px;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+color:white;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+.creator-form button:hover{
+transform:translateY(-3px);
 }
