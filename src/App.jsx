@@ -147,58 +147,7 @@ export default function App() {
               <div>✔ Fast payouts after successful sales</div>
             </div>
 
-          </div>
-
-          <div className="form-container">
-
-            <form
-              action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
-              method="POST"
-              target="hidden_iframe"
-              className="creator-form"
-            >
-
-              <input
-                type="text"
-                name="entry.545798751"
-                placeholder="Full Name"
-                required
-              />
-
-              <input
-                type="text"
-                name="entry.1137478223"
-                placeholder="Instagram Username"
-                required
-              />
-
-              <input
-                type="text"
-                name="entry.1462881790"
-                placeholder="Phone Number"
-                required
-              />
-
-              <textarea
-                name="entry.971559874"
-                placeholder="Tell us about yourself"
-                rows="5"
-              ></textarea>
-
-              <button type="submit">
-                Apply Now
-              </button>
-
-            </form>
-
-            <iframe
-              name="hidden_iframe"
-              style={{ display: "none" }}
-              title="hidden"
-            ></iframe>
-
-          </div>
-
+         
         </div>
 
       </section>
