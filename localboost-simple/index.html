@@ -1,9 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Local Boost Ke</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
 }
 
 body{
@@ -14,7 +26,7 @@ overflow-x:hidden;
 
 /* NAVBAR */
 
-.navbar{
+nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -37,11 +49,6 @@ background:linear-gradient(90deg,#3b82f6,#10b981);
 color:white;
 text-decoration:none;
 font-weight:600;
-transition:0.3s;
-}
-
-.nav-btn:hover{
-transform:translateY(-3px);
 }
 
 /* HERO */
@@ -57,7 +64,6 @@ radial-gradient(circle at bottom right, rgba(16,185,129,0.12), transparent 40%);
 font-size:72px;
 line-height:1.1;
 margin-bottom:25px;
-max-width:800px;
 }
 
 .hero span{
@@ -80,28 +86,22 @@ gap:20px;
 flex-wrap:wrap;
 }
 
-.primary-btn,
+.primary-btn{
+padding:18px 34px;
+border-radius:50px;
+background:linear-gradient(90deg,#3b82f6,#10b981);
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
 .secondary-btn{
 padding:18px 34px;
 border-radius:50px;
-text-decoration:none;
-font-weight:600;
-transition:0.3s;
-}
-
-.primary-btn{
-background:linear-gradient(90deg,#3b82f6,#10b981);
-color:white;
-}
-
-.secondary-btn{
 border:1px solid rgba(255,255,255,0.2);
 color:white;
-}
-
-.primary-btn:hover,
-.secondary-btn:hover{
-transform:translateY(-3px);
+text-decoration:none;
+font-weight:600;
 }
 
 /* SERVICES */
@@ -122,15 +122,10 @@ margin:auto;
 background:#06122b;
 padding:45px;
 border-radius:35px;
-transition:0.3s;
-}
-
-.service-card:hover{
-transform:translateY(-5px);
 }
 
 .large-card{
-min-height:220px;
+min-height:240px;
 }
 
 .bottom-services{
@@ -172,11 +167,6 @@ gap:30px;
 background:#06122b;
 padding:45px;
 border-radius:35px;
-transition:0.3s;
-}
-
-.package-card:hover{
-transform:translateY(-5px);
 }
 
 .package-card h3{
@@ -215,7 +205,6 @@ padding:60px;
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:40px;
-align-items:start;
 }
 
 .creator-content h2{
@@ -275,14 +264,9 @@ color:white;
 text-decoration:none;
 font-weight:600;
 display:inline-block;
-transition:0.3s;
 }
 
-.contact-btn:hover{
-transform:translateY(-3px);
-}
-
-/* FLOAT BUTTON */
+/* WHATSAPP */
 
 .whatsapp-float{
 position:fixed;
@@ -295,7 +279,6 @@ color:white;
 text-decoration:none;
 font-weight:600;
 z-index:999;
-box-shadow:0 10px 30px rgba(59,130,246,0.3);
 }
 
 /* FOOTER */
@@ -311,10 +294,6 @@ margin-top:50px;
 /* MOBILE */
 
 @media(max-width:768px){
-
-.hero{
-padding-top:90px;
-}
 
 .hero h1{
 font-size:48px;
@@ -345,9 +324,232 @@ font-size:40px;
 width:90px;
 }
 
-.whatsapp-float{
-padding:14px 22px;
-font-size:14px;
 }
 
-}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+<img src="logo.png" alt="Local Boost Ke">
+</div>
+
+<a href="https://wa.me/254734006916" class="nav-btn">
+Let's Talk
+</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>
+Elevate Your <span>Business Online.</span>
+</h1>
+
+<p>
+Helping Kenyan businesses grow through premium web development, branding and Meta advertising.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#packages" class="primary-btn">
+View Packages
+</a>
+
+<a href="#creator" class="secondary-btn">
+Become A Partner
+</a>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services">
+
+<div class="services-container">
+
+<div class="service-card large-card">
+<h3>Web Development</h3>
+
+<p>
+Premium high-converting business websites built for modern brands.
+</p>
+
+</div>
+
+<div class="bottom-services">
+
+<div class="service-card">
+
+<h3>Branding</h3>
+
+<p>
+Elegant premium business identity systems.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>Meta Ads</h3>
+
+<p>
+Smart advertising campaigns focused on business growth.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PACKAGES -->
+
+<section class="packages" id="packages">
+
+<h2 class="section-title">
+Website Packages
+</h2>
+
+<div class="package-grid">
+
+<div class="package-card">
+
+<h3>Starter Package</h3>
+
+<div class="price">
+Ksh 3,500
+</div>
+
+<ul>
+<li>✔ 1 Premium Landing Page</li>
+<li>✔ Mobile Friendly Design</li>
+<li>✔ WhatsApp Integration</li>
+<li>✔ Fast Delivery</li>
+<li>✔ Business Information Section</li>
+</ul>
+
+</div>
+
+<div class="package-card">
+
+<h3>Business Package</h3>
+
+<div class="price">
+Ksh 10,000
+</div>
+
+<ul>
+<li>✔ Up To 5 Custom Pages</li>
+<li>✔ Booking System</li>
+<li>✔ Gallery Sections</li>
+<li>✔ SEO Optimization</li>
+<li>✔ Premium UI Layout</li>
+</ul>
+
+</div>
+
+<div class="package-card">
+
+<h3>Premium Brand</h3>
+
+<div class="price">
+Ksh 25,000
+</div>
+
+<ul>
+<li>✔ Advanced Custom Design</li>
+<li>✔ Smooth Animations</li>
+<li>✔ Advanced SEO Structure</li>
+<li>✔ Priority Support</li>
+<li>✔ Interactive Sections</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CREATOR SECTION -->
+
+<section class="creator-section" id="creator">
+
+<div class="creator-box">
+
+<div class="creator-content">
+
+<h2>
+Creator Partnership Program
+</h2>
+
+<p>
+Earn commissions by referring businesses to Local Boost Ke.
+</p>
+
+<div class="creator-benefits">
+
+<div>✔ Earn Ksh 500 per starter package referral</div>
+<div>✔ Earn 20% commission on premium packages</div>
+<div>✔ Get your own creator referral code</div>
+<div>✔ Fast payouts after successful sales</div>
+
+</div>
+
+</div>
+
+<div class="form-container">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/viewform?embedded=true">
+Loading…
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>
+Ready To Grow Your Brand?
+</h2>
+
+<p>
+Let's build your premium online presence.
+</p>
+
+<a href="https://wa.me/254734006916" class="contact-btn">
+Chat On WhatsApp
+</a>
+
+</section>
+
+<!-- FLOAT BUTTON -->
+
+<a href="https://wa.me/254734006916" class="whatsapp-float">
+WhatsApp Us
+</a>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 Local Boost Ke. All Rights Reserved.
+</footer>
+
+</body>
+</html>
