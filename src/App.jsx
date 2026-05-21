@@ -207,7 +207,93 @@ export default function App() {
         </div>
 
       </section>
+      
+      {/* CREATOR PARTNERSHIP PROGRAM */}
 
+<section className="px-6 lg:px-20 pb-24">
+
+  <div className="max-w-6xl mx-auto bg-white/5 border border-white/10 rounded-[40px] p-12 backdrop-blur-xl relative overflow-hidden">
+
+    <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div>
+
+    <div className="relative z-10">
+
+      <div className="text-center mb-14">
+
+        <p className="text-emerald-400 uppercase tracking-[4px] text-sm mb-4">
+          Creator Partnership Program
+        </p>
+
+        <h2 className="text-5xl font-bold mb-6">
+          Earn By Promoting Local Boost Ke
+        </h2>
+
+        <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
+          Content creators and influencers can earn commissions by referring clients to Local Boost Ke. 
+          Partner with us and monetize your audience while helping businesses grow online.
+        </p>
+
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-8">
+
+        <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+
+          <h3 className="text-2xl font-semibold mb-6">
+            Partnership Benefits
+          </h3>
+
+          <div className="space-y-5 text-gray-300">
+
+            <p>✔ Earn Ksh 500 for every successful 3,500 package referral</p>
+
+            <p>✔ Earn 20% commission on premium packages</p>
+
+            <p>✔ Fast and flexible payouts</p>
+
+            <p>✔ Receive your own unique referral code</p>
+
+            <p>✔ Work remotely from anywhere</p>
+
+          </div>
+
+        </div>
+
+        <div className="bg-[#081028] border border-white/5 rounded-3xl p-8">
+
+          <h3 className="text-2xl font-semibold mb-6">
+            How It Works
+          </h3>
+
+          <div className="space-y-5 text-gray-300">
+
+            <p>1. Apply through WhatsApp</p>
+
+            <p>2. Receive your unique creator referral code</p>
+
+            <p>3. Promote Local Boost Ke on your platforms</p>
+
+            <p>4. Earn commissions for every successful referral</p>
+
+          </div>
+
+          <a
+            href="https://wa.me/254734006916"
+            target="_blank"
+            className="inline-block mt-10 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-400 text-white font-semibold shadow-2xl shadow-blue-500/20 hover:scale-105 transition duration-300"
+          >
+            Become A Partner
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* CONTACT */}
 
       <section className="px-6 lg:px-20 pb-28">
