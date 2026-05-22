@@ -367,4 +367,32 @@ font-size:18px;
 color:#d8dfea;
 letter-spacing:1px;
 }
+.small-partner-btn{
+padding:10px 18px;
+font-size:14px;
+opacity:0.85;
+}
+
+.email-btn{
+display:inline-block;
+margin-top:14px;
+font-size:15px;
+color:#d8dfea;
+text-decoration:none;
+letter-spacing:0.5px;
+transition:0.3s ease;
+}
+
+.email-btn:hover{
+opacity:0.7;
+}
+
+.hero{
+padding:70px 8% 40px;
+}
+
+.hero h1{
+font-size:56px;
+line-height:1.1;
+}
 }
