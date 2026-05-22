@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 
 export default function App() {
+
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -10,6 +11,7 @@ export default function App() {
     const formData = new FormData(e.target);
 
     try {
+
       await fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse",
         {
@@ -21,13 +23,23 @@ export default function App() {
 
       setSubmitted(true);
       e.target.reset();
+
     } catch (error) {
       console.log(error);
     }
   };
 
   return (
+
     <div className="app">
+
+      <header className="navbar">
+
+        <div className="logo">
+          <img src="/logo.png" alt="Local Boost KE" />
+        </div>
+
+      </header>
 
       <section className="hero">
 
@@ -48,7 +60,7 @@ export default function App() {
               Packages
             </a>
 
-            <a href="#creator-form" className="partner-btn small-partner-btn">
+            <a href="#creator-form" className="partner-btn">
               Become Partner
             </a>
 
@@ -83,23 +95,24 @@ export default function App() {
         <div className="service-card">
           <h3>Website Development</h3>
           <p>
-            Premium modern websites designed to help businesses look trusted
-            online.
+            Fast modern websites designed to help businesses look trusted and
+            premium online.
           </p>
         </div>
 
         <div className="service-card">
           <h3>Branding</h3>
           <p>
-            Clean visuals and digital identity systems for growing brands.
+            Clean visual identity systems and digital branding for modern
+            businesses.
           </p>
         </div>
 
         <div className="service-card">
           <h3>Meta Ads</h3>
           <p>
-            Strategic ad campaigns designed to attract customers and increase
-            visibility.
+            Strategic Meta advertising campaigns built to increase visibility
+            and attract customers.
           </p>
         </div>
 
@@ -112,21 +125,40 @@ export default function App() {
         <div className="package-grid">
 
           <div className="package-card">
+
             <h3>Starter</h3>
-            <h1>KSh 15K</h1>
-            <p>Landing page website</p>
+
+            <h1>KSh 3,500</h1>
+
+            <p>
+              Single landing page website for small businesses and startups.
+            </p>
+
           </div>
 
           <div className="package-card featured">
+
             <h3>Business</h3>
-            <h1>KSh 35K</h1>
-            <p>Full premium business website + branding</p>
+
+            <h1>KSh 25K</h1>
+
+            <p>
+              Full premium business website with branding and lead generation
+              setup.
+            </p>
+
           </div>
 
           <div className="package-card">
+
             <h3>Custom</h3>
+
             <h1>KSh 50K+</h1>
-            <p>Advanced business solutions & custom builds</p>
+
+            <p>
+              Advanced custom business solutions and scaling packages.
+            </p>
+
           </div>
 
         </div>
@@ -142,53 +174,63 @@ export default function App() {
           to Local Boost KE.
         </p>
 
-        {submitted ? (
-          <div className="success-message">
-            Application submitted successfully.
-          </div>
-        ) : (
+        {
 
-          <form onSubmit={handleSubmit} className="creator-form">
+          submitted ? (
 
-            <input
-              type="text"
-              name="entry.2005620554"
-              placeholder="Your Name"
-              required
-            />
+            <div className="success-message">
+              Application submitted successfully.
+            </div>
 
-            <input
-              type="text"
-              name="entry.1045781291"
-              placeholder="Instagram Username"
-              required
-            />
+          ) : (
 
-            <input
-              type="number"
-              name="entry.1166974658"
-              placeholder="Followers"
-              required
-            />
+            <form onSubmit={handleSubmit} className="creator-form">
 
-            <input
-              type="text"
-              name="entry.839337160"
-              placeholder="Referral Code (Optional)"
-            />
+              <input
+                type="text"
+                name="entry.2005620554"
+                placeholder="Your Name"
+                required
+              />
 
-            <button type="submit">
-              Submit Application
-            </button>
+              <input
+                type="text"
+                name="entry.1045781291"
+                placeholder="Instagram Username"
+                required
+              />
 
-          </form>
+              <input
+                type="number"
+                name="entry.1166974658"
+                placeholder="Followers"
+                required
+              />
 
-        )}
+              <input
+                type="text"
+                name="entry.839337160"
+                placeholder="Referral Code (Optional)"
+              />
+
+              <button type="submit">
+                Submit Application
+              </button>
+
+            </form>
+
+          )
+
+        }
 
       </section>
+
       <footer>
-  © 2026 Local Boost KE. All rights reserved.
-</footer>
+        © 2026 Local Boost KE. All rights reserved.
+      </footer>
+
     </div>
+
   );
+
 }
