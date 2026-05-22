@@ -1,312 +1,192 @@
 import "./App.css";
+import { useState } from "react";
 
 export default function App() {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    try {
+      await fetch(
+        "https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse",
+        {
+          method: "POST",
+          body: formData,
+          mode: "no-cors",
+        }
+      );
+
+      setSubmitted(true);
+      e.target.reset();
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
-    <>
-      {/* NAVBAR */}
-
-      <nav className="navbar">
-
-        <div className="logo">
-          <img src="/logo.png" alt="Local Boost Ke" />
-        </div>
-
-        
-
-      </nav>
-
-      {/* HERO */}
+    <div className="app">
 
       <section className="hero">
 
-        <h1>
-          Fast websites and branding for growing businesses
-        </h1>
+        <div className="hero-content">
 
-        <p>
-          Helping Kenyan businesses grow through premium web development,
-          branding and Meta advertising.
-        </p>
+          <h1>
+            Fast websites and branding for growing businesses
+          </h1>
 
-        <div className="hero-buttons">
+          <p>
+            We help Kenyan businesses build a premium online presence with
+            modern websites, branding and digital growth solutions.
+          </p>
 
-          <a href="#packages" className="primary-btn">
-            View Packages
-          </a>
+          <div className="hero-buttons">
 
-          <a href="#creator" className="partner-btn small-partner-btn">
-            Become A Partner
-          </a>
+            <a href="#packages" className="primary-btn">
+              Packages
+            </a>
+
+            <a href="#creator-form" className="partner-btn small-partner-btn">
+              Become Partner
+            </a>
+
+          </div>
+
+          <div className="contact-links">
+
+            <a
+              href="https://wa.me/254700000000"
+              target="_blank"
+              rel="noreferrer"
+              className="whatsapp-btn"
+            >
+              Chat on WhatsApp
+            </a>
+
+            <a
+              href="mailto:hello@localboostke.co.ke"
+              className="email-btn"
+            >
+              Email Us
+            </a>
+
+          </div>
 
         </div>
 
       </section>
-
-      {/* SERVICES */}
 
       <section className="services">
 
-        <div className="services-container">
+        <div className="service-card">
+          <h3>Website Development</h3>
+          <p>
+            Premium modern websites designed to help businesses look trusted
+            online.
+          </p>
+        </div>
 
-          <div className="service-card large-card">
+        <div className="service-card">
+          <h3>Branding</h3>
+          <p>
+            Clean visuals and digital identity systems for growing brands.
+          </p>
+        </div>
 
-            <h3>Web Development</h3>
-
-            <p>
-              Premium high-converting business websites built for modern brands.
-            </p>
-
-          </div>
-
-          <div className="bottom-services">
-
-            <div className="service-card">
-
-              <h3>Branding</h3>
-
-              <p>
-                Elegant premium business identity systems.
-              </p>
-
-            </div>
-
-            <div className="service-card">
-
-              <h3>Meta Ads</h3>
-
-              <p>
-                Smart advertising campaigns focused on business growth.
-              </p>
-
-            </div>
-
-          </div>
-
+        <div className="service-card">
+          <h3>Meta Ads</h3>
+          <p>
+            Strategic ad campaigns designed to attract customers and increase
+            visibility.
+          </p>
         </div>
 
       </section>
 
-      {/* PACKAGES */}
-
       <section className="packages" id="packages">
 
-        <h2 className="section-title">
-          Website Packages
-        </h2>
+        <h2>Packages</h2>
 
         <div className="package-grid">
 
           <div className="package-card">
+            <h3>Starter</h3>
+            <h1>KSh 15K</h1>
+            <p>Landing page website</p>
+          </div>
 
-            <h3>Starter Package</h3>
-
-            <div className="price">
-              Ksh 3,500
-            </div>
-
-            <ul>
-              <li>✔ 1 Premium Landing Page</li>
-              <li>✔ Mobile Friendly Design</li>
-              <li>✔ WhatsApp Integration</li>
-              <li>✔ Business Information Section</li>
-              <li>✔ Fast Delivery</li>
-            </ul>
-
+          <div className="package-card featured">
+            <h3>Business</h3>
+            <h1>KSh 35K</h1>
+            <p>Full premium business website + branding</p>
           </div>
 
           <div className="package-card">
-
-            <h3>Business Package</h3>
-
-            <div className="price">
-              Ksh 10,000
-            </div>
-
-            <ul>
-              <li>✔ Up To 5 Custom Pages</li>
-              <li>✔ Booking System</li>
-              <li>✔ Gallery Sections</li>
-              <li>✔ SEO Optimization</li>
-              <li>✔ Premium UI Layout</li>
-            </ul>
-
-          </div>
-
-          <div className="package-card">
-
-            <h3>Premium Brand</h3>
-
-            <div className="price">
-              Ksh 25,000
-            </div>
-
-            <ul>
-              <li>✔ Advanced Custom Design</li>
-              <li>✔ Smooth Animations</li>
-              <li>✔ Advanced SEO Structure</li>
-              <li>✔ Priority Support</li>
-              <li>✔ Interactive Sections</li>
-            </ul>
-
-          </div>
-
-          <div className="package-card">
-
-            <h3>Ecommerce / Custom</h3>
-
-            <div className="price">
-              From Ksh 50,000
-            </div>
-
-            <ul>
-              <li>✔ Full Online Store Setup</li>
-              <li>✔ M-PESA Integration</li>
-              <li>✔ Shopping Cart & Checkout</li>
-              <li>✔ Dashboard Features</li>
-              <li>✔ Premium UI/UX Design</li>
-            </ul>
-
+            <h3>Custom</h3>
+            <h1>KSh 50K+</h1>
+            <p>Advanced business solutions & custom builds</p>
           </div>
 
         </div>
 
       </section>
 
-      {/* CREATOR SECTION */}
+      <section className="creator-section" id="creator-form">
 
-      <section className="creator-section" id="creator">
-
-        <div className="creator-box">
-
-          <div className="creator-content">
-
-            <h2>
-              Creator Partnership Program
-            </h2>
-
-            <p>
-              Earn commissions by referring businesses to Local Boost Ke.
-            </p>
-
-            <div className="creator-benefits">
-
-              <div>✔ Earn Ksh 500 per starter package referral</div>
-
-              <div>✔ Earn 20% commission on premium packages</div>
-
-              <div>✔ Get your own creator referral code</div>
-
-              <div>✔ Fast payouts after successful sales</div>
-
-            </div>
-
-          </div>
-
-          <div className="form-container">
-
-            <form
-  onSubmit={handleSubmit}
-  className="creator-form"
->
-          
-
-              <input
-                type="text"
-                name="entry.545798751"
-                placeholder="Full Name"
-                required
-              />
-
-              <input
-                type="text"
-                name="entry.1137478223"
-                placeholder="Instagram Username"
-                required
-              />
-
-              <input
-                type="text"
-                name="entry.1836801454"
-                placeholder="TikTok Username"
-              />
-
-              <input
-                type="text"
-                name="entry.1462881790"
-                placeholder="Phone Number"
-                required
-              />
-
-              <input
-                type="text"
-                name="entry.2050320178"
-                placeholder="Content Niche"
-              />
-
-            
-
-              <textarea
-                name="entry.971559874"
-                placeholder="Why do you want to join Local Boost Ke?"
-                rows="5"
-              ></textarea>
-
-              <button type="submit">
-                Apply Now
-              </button>
-
-            </form>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* CONTACT */}
-
-      <section className="contact">
-
-        <h2>
-          Ready To Grow Your Brand?
-        </h2>
+        <h2>Creator Partner Program</h2>
 
         <p>
-          Let's build your premium online presence.
+          Join our creator network and earn commissions by referring businesses
+          to Local Boost KE.
         </p>
 
-   
-        <a
-          href="https://wa.me/254734006916"
-          className="contact-btn"
-        >
-          Chat On WhatsApp
-        </a>
-       <a
-  href="mailto:hello@localboostke.co.ke"
-  className="email-btn"
->
-  Email Us
-</a>
+        {submitted ? (
+          <div className="success-message">
+            Application submitted successfully.
+          </div>
+        ) : (
+
+          <form onSubmit={handleSubmit} className="creator-form">
+
+            <input
+              type="text"
+              name="entry.2005620554"
+              placeholder="Your Name"
+              required
+            />
+
+            <input
+              type="text"
+              name="entry.1045781291"
+              placeholder="Instagram Username"
+              required
+            />
+
+            <input
+              type="number"
+              name="entry.1166974658"
+              placeholder="Followers"
+              required
+            />
+
+            <input
+              type="text"
+              name="entry.839337160"
+              placeholder="Referral Code (Optional)"
+            />
+
+            <button type="submit">
+              Submit Application
+            </button>
+
+          </form>
+
+        )}
 
       </section>
 
-      {/* FLOATING BUTTON */}
-
-      <a
-        href="https://wa.me/254734006916"
-        className="whatsapp-float"
-      >
-        WhatsApp Us
-      </a>
-
-      {/* FOOTER */}
-
-      <footer>
-        © 2026 Local Boost Ke. All Rights Reserved.
-      </footer>
-
-    </>
+    </div>
   );
 }
-
