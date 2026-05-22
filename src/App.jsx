@@ -205,10 +205,10 @@ export default function App() {
           <div className="form-container">
 
             <form
-              action="https://docs.google.com/forms/d/e/1FAIpQLScyoec6tpWh7i9sT4oLchrJjnqDuOufWwblnhqxoXtCst618w/formResponse"
-              method="POST"
-              className="creator-form"
-            >
+  onSubmit={handleSubmit}
+  className="creator-form"
+>
+          
 
               <input
                 type="text"
@@ -243,11 +243,7 @@ export default function App() {
                 placeholder="Content Niche"
               />
 
-              <input
-                type="text"
-                name="entry.1189225899"
-                placeholder="Referral Code"
-              />
+            
 
               <textarea
                 name="entry.971559874"
