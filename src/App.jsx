@@ -282,11 +282,11 @@ export default function App() {
         >
           Chat On WhatsApp
         </a>
-        <a
+       <a
   href="mailto:hello@localboostke.co.ke"
   className="email-btn"
 >
-  hello@localboostke.co.ke
+  Email Us
 </a>
 
       </section>
