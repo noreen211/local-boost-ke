@@ -186,7 +186,9 @@ export default function App() {
         )}
 
       </section>
-
+      <footer>
+  © 2026 Local Boost KE. All rights reserved.
+</footer>
     </div>
   );
 }
