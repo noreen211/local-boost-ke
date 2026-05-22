@@ -11,12 +11,7 @@ export default function App() {
           <img src="/logo.png" alt="Local Boost Ke" />
         </div>
 
-        <a
-          href="https://wa.me/254734006916"
-          className="nav-btn"
-        >
-          Let's Talk
-        </a>
+        
 
       </nav>
 
@@ -25,7 +20,7 @@ export default function App() {
       <section className="hero">
 
         <h1>
-          Elevate Your <span>Business Online.</span>
+          Fast websites and branding for growing businesses
         </h1>
 
         <p>
@@ -39,7 +34,7 @@ export default function App() {
             View Packages
           </a>
 
-          <a href="#creator" className="secondary-btn">
+          <a href="#creator" className="partner-btn small-partner-btn">
             Become A Partner
           </a>
 
@@ -284,12 +279,21 @@ export default function App() {
           Let's build your premium online presence.
         </p>
 
+        <p className="business-email">
+  hello@localboostke.co.ke
+</p>
         <a
           href="https://wa.me/254734006916"
           className="contact-btn"
         >
           Chat On WhatsApp
         </a>
+        <a
+  href="mailto:hello@localboostke.co.ke"
+  className="email-btn"
+>
+  hello@localboostke.co.ke
+</a>
 
       </section>
 
