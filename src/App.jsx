@@ -6,6 +6,7 @@ export default function App() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
+
     e.preventDefault();
 
     const formData = new FormData(e.target);
@@ -27,6 +28,7 @@ export default function App() {
     } catch (error) {
       console.log(error);
     }
+
   };
 
   return (
@@ -35,13 +37,17 @@ export default function App() {
 
       <header className="navbar">
 
-        <div className="logo">
-          <img src="/logo.png" alt="Local Boost KE" />
-        </div>
+        <img
+          src="/logo.png"
+          alt="Local Boost KE"
+          className="logo"
+        />
 
       </header>
 
       <section className="hero">
+
+        <div className="hero-overlay"></div>
 
         <div className="hero-content">
 
@@ -50,38 +56,18 @@ export default function App() {
           </h1>
 
           <p>
-            We help Kenyan businesses build a premium online presence with
-            modern websites, branding and digital growth solutions.
+            We help Kenyan businesses build premium online brands with modern
+            websites, strategic design and digital growth solutions.
           </p>
 
           <div className="hero-buttons">
 
             <a href="#packages" className="primary-btn">
-              Packages
+              View Packages
             </a>
 
             <a href="#creator-form" className="partner-btn">
               Become Partner
-            </a>
-
-          </div>
-
-          <div className="contact-links">
-
-            <a
-              href="https://wa.me/254700000000"
-              target="_blank"
-              rel="noreferrer"
-              className="whatsapp-btn"
-            >
-              Chat on WhatsApp
-            </a>
-
-            <a
-              href="mailto:hello@localboostke.co.ke"
-              className="email-btn"
-            >
-              Email Us
             </a>
 
           </div>
@@ -93,71 +79,137 @@ export default function App() {
       <section className="services">
 
         <div className="service-card">
+
           <h3>Website Development</h3>
+
           <p>
             Fast modern websites designed to help businesses look trusted and
             premium online.
           </p>
+
         </div>
 
         <div className="service-card">
+
           <h3>Branding</h3>
+
           <p>
-            Clean visual identity systems and digital branding for modern
+            Modern visual identity systems and digital branding for ambitious
             businesses.
           </p>
+
         </div>
 
         <div className="service-card">
+
           <h3>Meta Ads</h3>
+
           <p>
             Strategic Meta advertising campaigns built to increase visibility
             and attract customers.
           </p>
+
         </div>
 
       </section>
 
       <section className="packages" id="packages">
 
-        <h2>Packages</h2>
+        <h2>Website Packages</h2>
 
         <div className="package-grid">
 
           <div className="package-card">
 
-            <h3>Starter</h3>
+            <h3>Starter Website Package</h3>
 
             <h1>KSh 3,500</h1>
 
-            <p>
-              Single landing page website for small businesses and startups.
-            </p>
+            <ul>
+              <li>✅ 1 Premium Landing Page</li>
+              <li>✅ Mobile Friendly Design</li>
+              <li>✅ WhatsApp Chat Button</li>
+              <li>✅ Business Information Section</li>
+              <li>✅ Product / Services Display</li>
+              <li>✅ Social Media Links</li>
+              <li>✅ Basic SEO Setup</li>
+              <li>✅ Fast Delivery</li>
+              <li>✅ Free Minor Edits After Delivery</li>
+            </ul>
 
           </div>
 
           <div className="package-card featured">
 
-            <h3>Business</h3>
+            <div className="popular-tag">
+              MOST POPULAR
+            </div>
 
-            <h1>KSh 25K</h1>
+            <h3>Business Website Package</h3>
 
-            <p>
-              Full premium business website with branding and lead generation
-              setup.
-            </p>
+            <h1>KSh 10,000</h1>
+
+            <ul>
+              <li>✅ Up To 5 Custom Pages</li>
+              <li>✅ Premium Modern Design</li>
+              <li>✅ Mobile & Tablet Optimization</li>
+              <li>✅ Contact Forms</li>
+              <li>✅ Gallery / Portfolio Sections</li>
+              <li>✅ Booking or Inquiry System</li>
+              <li>✅ Google Maps Integration</li>
+              <li>✅ WhatsApp Integration</li>
+              <li>✅ Faster Loading Speeds</li>
+              <li>✅ Professional UI Layout</li>
+              <li>✅ SEO Optimization</li>
+              <li>✅ 14 Days Free Support</li>
+            </ul>
 
           </div>
 
           <div className="package-card">
 
-            <h3>Custom</h3>
+            <h3>Premium Brand Website</h3>
 
-            <h1>KSh 50K+</h1>
+            <h1>KSh 25,000</h1>
 
-            <p>
-              Advanced custom business solutions and scaling packages.
-            </p>
+            <ul>
+              <li>✅ Everything In Business Package</li>
+              <li>✅ Advanced Custom Design</li>
+              <li>✅ Smooth Animations & Transitions</li>
+              <li>✅ Premium Brand Styling</li>
+              <li>✅ Advanced Booking Systems</li>
+              <li>✅ Interactive Sections</li>
+              <li>✅ Blog / News Setup</li>
+              <li>✅ Advanced SEO Structure</li>
+              <li>✅ Priority Support</li>
+              <li>✅ Performance Optimization</li>
+              <li>✅ Premium User Experience Design</li>
+              <li>✅ Brand Consultation</li>
+            </ul>
+
+          </div>
+
+          <div className="package-card">
+
+            <h3>Ecommerce / Custom Website</h3>
+
+            <h1>From KSh 50,000</h1>
+
+            <ul>
+              <li>✅ Full Online Store Setup</li>
+              <li>✅ M-PESA Integration</li>
+              <li>✅ Product Management System</li>
+              <li>✅ Customer Order System</li>
+              <li>✅ Shopping Cart & Checkout</li>
+              <li>✅ Inventory Management</li>
+              <li>✅ User Accounts / Login Systems</li>
+              <li>✅ Dashboard Features</li>
+              <li>✅ Advanced Integrations</li>
+              <li>✅ Custom Functionality</li>
+              <li>✅ Premium UI/UX Design</li>
+              <li>✅ Security Optimization</li>
+              <li>✅ Ongoing Technical Support</li>
+            </ul>
 
           </div>
 
@@ -226,7 +278,31 @@ export default function App() {
       </section>
 
       <footer>
-        © 2026 Local Boost KE. All rights reserved.
+
+        <div className="footer-contact">
+
+          <a
+            href="https://wa.me/254700000000"
+            target="_blank"
+            rel="noreferrer"
+            className="whatsapp-btn"
+          >
+            Chat on WhatsApp
+          </a>
+
+          <a
+            href="mailto:hello@localboostke.co.ke"
+            className="email-btn"
+          >
+            hello@localboostke.co.ke
+          </a>
+
+        </div>
+
+        <p>
+          © 2026 Local Boost KE. All rights reserved.
+        </p>
+
       </footer>
 
     </div>
