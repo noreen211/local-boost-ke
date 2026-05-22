@@ -279,9 +279,7 @@ export default function App() {
           Let's build your premium online presence.
         </p>
 
-        <p className="business-email">
-  hello@localboostke.co.ke
-</p>
+   
         <a
           href="https://wa.me/254734006916"
           className="contact-btn"
