@@ -193,7 +193,7 @@ export default function App() {
 
             <h3>Ecommerce / Custom Website</h3>
 
-            <h1>From KSh 50,000</h1>
+            <h1>From KSh 85,000</h1>
 
             <ul>
               <li>✅ Full Online Store Setup</li>
