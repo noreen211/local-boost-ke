@@ -342,5 +342,14 @@ font-size:38px;
 flex-direction:column;
 align-items:flex-start;
 }
+.app-package{
+border:1px solid rgba(20,184,166,0.4);
+background:
+linear-gradient(
+180deg,
+rgba(20,184,166,0.08),
+rgba(15,23,42,0.85)
+);
+}
 
 }

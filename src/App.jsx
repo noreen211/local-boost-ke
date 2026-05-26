@@ -212,6 +212,28 @@ export default function App() {
             </ul>
 
           </div>
+          <div className="package-card">
+
+  <h3>Mobile App Development</h3>
+
+  <h1>From KSh 120,000</h1>
+
+  <ul>
+    <li>✅ Android & iOS App Development</li>
+    <li>✅ Custom UI/UX Design</li>
+    <li>✅ User Authentication Systems</li>
+    <li>✅ API & Database Integration</li>
+    <li>✅ Admin Dashboard Systems</li>
+    <li>✅ Push Notifications</li>
+    <li>✅ Advanced App Functionality</li>
+    <li>✅ Play Store Deployment Assistance</li>
+    <li>✅ Performance Optimization</li>
+    <li>✅ Ongoing Technical Support</li>
+    <li>✅ Scalable Infrastructure Setup</li>
+    <li>✅ Premium Product Consultation</li>
+  </ul>
+
+</div>
 
         </div>
 
