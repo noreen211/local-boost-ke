@@ -139,11 +139,9 @@ export default function App() {
 
           </div>
 
-          <div className="package-card featured">
+          <div className="package-card">
 
-            <div className="popular-tag">
-              MOST POPULAR
-            </div>
+            
 
             <h3>Business Website Package</h3>
 
@@ -166,7 +164,12 @@ export default function App() {
 
           </div>
 
-          <div className="package-card">
+          <div className="package-card featured">
+
+            
+            <div className="popular-tag">
+              MOST POPULAR
+            </div>
 
             <h3>Premium Brand Website</h3>
 
