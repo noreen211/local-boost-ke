@@ -52,11 +52,11 @@ export default function App() {
         <div className="hero-content">
 
           <h1>
-            Fast websites and branding for growing businesses
+            Modern websites and mobile applications built for business growth
           </h1>
 
           <p>
-            We help Kenyan businesses build premium online brands with modern
+            We help Kenyan businesses build online brands with modern
             websites, strategic design and digital growth solutions.
           </p>
 
@@ -126,7 +126,7 @@ export default function App() {
             <h1>KSh 3,500</h1>
 
             <ul>
-              <li>✅ 1 Premium Landing Page</li>
+              <li>✅ 1 Landing Page</li>
               <li>✅ Mobile Friendly Design</li>
               <li>✅ WhatsApp Chat Button</li>
               <li>✅ Business Information Section</li>
@@ -149,7 +149,7 @@ export default function App() {
 
             <ul>
               <li>✅ Up To 5 Custom Pages</li>
-              <li>✅ Premium Modern Design</li>
+              <li>✅ Modern Design</li>
               <li>✅ Mobile & Tablet Optimization</li>
               <li>✅ Contact Forms</li>
               <li>✅ Gallery / Portfolio Sections</li>
@@ -186,7 +186,7 @@ export default function App() {
               <li>✅ Advanced SEO Structure</li>
               <li>✅ Priority Support</li>
               <li>✅ Performance Optimization</li>
-              <li>✅ Premium User Experience Design</li>
+              <li>✅ User Experience Design</li>
               <li>✅ Brand Consultation</li>
             </ul>
 
@@ -209,7 +209,7 @@ export default function App() {
               <li>✅ Dashboard Features</li>
               <li>✅ Advanced Integrations</li>
               <li>✅ Custom Functionality</li>
-              <li>✅ Premium UI/UX Design</li>
+              <li>✅ UI/UX Design</li>
               <li>✅ Security Optimization</li>
               <li>✅ Ongoing Technical Support</li>
             </ul>
@@ -233,7 +233,7 @@ export default function App() {
     <li>✅ Performance Optimization</li>
     <li>✅ Ongoing Technical Support</li>
     <li>✅ Scalable Infrastructure Setup</li>
-    <li>✅ Premium Product Consultation</li>
+    <li>✅ Product Consultation</li>
   </ul>
 
 </div>
