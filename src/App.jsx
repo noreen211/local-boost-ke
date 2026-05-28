@@ -56,8 +56,7 @@ export default function App() {
           </h1>
 
           <p>
-            We help Kenyan businesses build online brands with modern
-            websites, strategic design and digital growth solutions.
+            We help Kenyan businesses grow online through modern websites, mobile applications and strategic digital solutions.
           </p>
 
           <div className="hero-buttons">
