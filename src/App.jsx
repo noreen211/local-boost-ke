@@ -82,30 +82,27 @@ export default function App() {
           <h3>Website Development</h3>
 
           <p>
-            Fast modern websites designed to help businesses look trusted and
-            premium online.
+            Fast and modern websites built to help businesses establish strong online brands and attract customers.
           </p>
 
         </div>
 
         <div className="service-card">
 
-          <h3>Branding</h3>
+          <h3>Mobile Applications</h3>
 
           <p>
-            Modern visual identity systems and digital branding for ambitious
-            businesses.
+            Custom mobile applications designed for businesses looking to scale, automate and improve customer experience.
           </p>
 
         </div>
 
         <div className="service-card">
 
-          <h3>Meta Ads</h3>
+          <h3>Branding & Digital Growth</h3>
 
           <p>
-            Strategic Meta advertising campaigns built to increase visibility
-            and attract customers.
+            Strategic branding and digital solutions focused on helping businesses grow visibility and build trust online.
           </p>
 
         </div>
